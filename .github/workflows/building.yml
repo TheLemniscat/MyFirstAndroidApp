@@ -1,10 +1,10 @@
 name: Ionic CI/CD with Cypress
 on:
   pull_request:
-     types: [closed]
-  branches:
-    - master
-  
+    types: [closed]
+    branches:
+      - master
+    
 
 jobs:
   test-e2e:
